@@ -12,6 +12,9 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
+            PhoneTypeChecker check = new PhoneTypeChecker();
+
+            Manufactures selection = new Manufactures();
             Console.WriteLine("What brand of smart phone would you like to view?");
             Console.WriteLine(" Samsung");
             Console.WriteLine(" HTC");
@@ -22,23 +25,26 @@ namespace AbstractFactory
 
             if (phone == "s")
             {
-
+                selection = Manufactures.Samsung;
             }
             
             else if (phone == "h")
             {
-               
+                selection = Manufactures.HTC;
             }
 
             else if (phone == "n")
             {
-               
+                selection = Manufactures.Nokia;
             }
-
             else
             
             {
                 Console.WriteLine("\nIncorrect answer please try again!");
+            }
+            switch (selection)
+            {
+
             }
         }
     }

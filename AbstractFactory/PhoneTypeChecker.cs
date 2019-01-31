@@ -10,8 +10,8 @@ namespace AbstractFactory
 {
     class PhoneTypeChecker
     {
-        IPhoneFactory factory;
-        Manufactures manu;
+        public IPhoneFactory factory;
+        public Manufactures manu;
 
         PhoneTypeChecker(Manufactures manu)
         {
