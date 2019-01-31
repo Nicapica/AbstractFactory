@@ -51,6 +51,7 @@
     <Compile Include="IPhoneFactory.cs" />
     <Compile Include="ISmart.cs" />
     <Compile Include="Lumia.cs" />
+    <Compile Include="Manufactures.cs" />
     <Compile Include="NokiaFactory.cs" />
     <Compile Include="PhoneTypeChecker.cs" />
     <Compile Include="Primo.cs" />

@@ -8,5 +8,11 @@ namespace AbstractFactory
 {
     class Asha : IDumb
     {
+        string IDumb.getName()
+        {
+            string name = "Asha";
+            Console.WriteLine(name);
+            return name;
+        }
     }
 }

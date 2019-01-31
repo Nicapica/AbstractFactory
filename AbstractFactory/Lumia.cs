@@ -8,5 +8,11 @@ namespace AbstractFactory
 {
     class Lumia : ISmart
     {
+        string ISmart.getName()
+        {
+            string name = "Lumia";
+            Console.WriteLine(name);
+            return name;
+        }
     }
 }

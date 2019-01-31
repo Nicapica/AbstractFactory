@@ -8,5 +8,11 @@ namespace AbstractFactory
 {
     class GalaxyS2 : ISmart
     {
+        string ISmart.getName()
+        {
+            string name = "GalaxyS2";
+            Console.WriteLine(name);
+            return name;
+        }
     }
 }

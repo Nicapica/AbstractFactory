@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    abstract class IPhoneFactory
+    interface IPhoneFactory
     {
+        ISmart GetSmart();
+        IDumb GetDumb();
     }
 }

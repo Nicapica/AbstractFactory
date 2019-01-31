@@ -8,5 +8,11 @@ namespace AbstractFactory
 {
     class Primo : IDumb
     {
+        string IDumb.getName()
+        {
+            string name = "Primo";
+            Console.WriteLine(name);
+            return name;
+        }
     }
 }

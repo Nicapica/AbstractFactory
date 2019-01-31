@@ -8,5 +8,11 @@ namespace AbstractFactory
 {
     class Titan : ISmart
     {
+        string ISmart.getName()
+        {
+            string name = "Titan";
+            Console.WriteLine(name);
+            return name;
+        }
     }
 }

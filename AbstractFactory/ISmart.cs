@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    abstract class ISmart
+    interface ISmart
     {
-        public String getName;
+        string getName();
     }
 }

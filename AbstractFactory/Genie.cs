@@ -8,5 +8,11 @@ namespace AbstractFactory
 {
     class Genie : IDumb
     {
+        string IDumb.getName()
+        {
+            string name = "Genie";
+            Console.WriteLine(name);
+            return name;
+        }
     }
 }

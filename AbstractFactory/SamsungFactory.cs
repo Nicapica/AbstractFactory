@@ -10,5 +10,18 @@ namespace AbstractFactory
 {
     class SamsungFactory : IPhoneFactory
     {
+        ISmart IPhoneFactory.GetSmart()
+        {
+            ISmart nPhone = new GalaxyS2();
+            nPhone.getName();
+            return nPhone;
+        }
+
+        IDumb IPhoneFactory.GetDumb()
+        {
+            IDumb nPhone = new Genie();
+            nPhone.getName();
+            return nPhone;
+        }
     }
 }
